@@ -1,0 +1,29 @@
+.menu-bg {
+  background: #5c16c5;
+  height: 56px;
+}
+
+.menu-logo {
+  cursor: pointer;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+
+  @media screen and (max-width: 640px) {
+    justify-content: center;
+  }
+
+  img {
+    @media screen and (max-width: 640px) {
+      width: 140px;
+    }
+  }
+}

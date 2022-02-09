@@ -1,0 +1,85 @@
+.filterTitle {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 16px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0em;
+
+  @media screen and (max-width: 360px) {
+    text-align: left;
+    padding: 0 16px 14px 16px;
+  }
+}
+
+.genresContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 85px;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 360px) {
+    justify-content: left;
+  }
+}
+
+.genresButton {
+  margin: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  color: #323232;
+
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: center;
+
+  svg {
+    display: none;
+  }
+}
+
+.genresButtonActive {
+  margin: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 6px 8px 8px 16px;
+  color: #ffffff;
+
+  background: #d18000;
+  border: none;
+  border-radius: 4px;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: center;
+
+  svg {
+    display: flex;
+    margin: 6px;
+    width: 16.67px;
+    height: 16.67px;
+    overflow: visible;
+  }
+}

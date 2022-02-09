@@ -1,0 +1,37 @@
+.cast {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+  margin-right: 16px;
+
+  width: 191px;
+  height: 336px;
+
+  background: #ffffff;
+  color: #131313;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+
+  img {
+    max-width: 175px;
+    height: 222px;
+
+    border-radius: 4px;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

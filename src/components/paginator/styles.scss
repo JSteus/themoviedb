@@ -1,0 +1,44 @@
+.paginatorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+
+  @media screen and (max-width: 360px) {
+    flex-direction: column;
+  }
+
+  button {
+    cursor: pointer;
+    color: #5c16c5;
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    @media screen and (max-width: 360px) {
+      margin: 10px 0 10px 0;
+    }
+  }
+}
+
+.paginator {
+  display: flex;
+  flex-direction: row;
+
+  li {
+    cursor: pointer;
+    color: #5c16c5;
+    margin: 0 12px;
+    padding: 3px;
+  }
+
+  .selected {
+    color: #e5e5e5;
+    background: #5c16c5;
+    border-radius: 5px;
+  }
+}

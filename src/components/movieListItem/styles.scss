@@ -1,0 +1,46 @@
+.listItemContainer {
+  max-width: 176px;
+  padding: 16px;
+  cursor: pointer;
+
+  @media screen and (max-width: 640px) {
+    padding: 8px 0 8px 0;
+    margin: 8px;
+    max-width: 156px;
+  }
+
+  .title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+  }
+
+  .date {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #646464;
+  }
+
+  img {
+    height: 264px;
+    width: 176px;
+    border-radius: 4px;
+
+    @media screen and (max-width: 640px) {
+      width: 156px;
+      height: 232px;
+    }
+  }
+}
+
+.inactive {
+  display: none;
+}
